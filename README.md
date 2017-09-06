@@ -14,7 +14,9 @@ It's a user script installed to browser which steals the session cookie and show
 ## Installation
 
 1. Install [Greasemonkey](https://addons.mozilla.org/fi/firefox/addon/greasemonkey/) for Firefox or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Chrome/Chromium.
-2. Open [pulse-openconnect.user.js](pulse-openconnect.user.js)
+2. Click [pulse-openconnect.user.js](pulse-openconnect.user.js)
+3. Click *Raw*
+4. Click *Install*
 
 ## Usage
 
