@@ -7,13 +7,21 @@ two-factor-authentication schemes.
 
 ## How it works?
 
-It's a user script installed to browser which steals the session cookie and shows the user a oneliner with the session cookie and other parameters for openconnect.
+It's a user script installed to a browser which steals the session
+cookie and shows the user a oneliner for connecting to that VPN using
+open-source openconnect. No more shady Java applets.
 
 ![Screenshot](screenshot.png)
 
 ## Installation
 
-1. Install [Greasemonkey](https://addons.mozilla.org/fi/firefox/addon/greasemonkey/) for Firefox or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Chrome/Chromium.
+1. Install openconnect. Run `sudo apt install openconnect` if you are
+   using Debian or Ubuntu.
+1. Install
+   [Greasemonkey](https://addons.mozilla.org/fi/firefox/addon/greasemonkey/)
+   for Firefox or
+   [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   for Chrome/Chromium.
 2. Click [pulse-openconnect.user.js](pulse-openconnect.user.js)
 3. Click *Raw*
 4. Click *Install*
@@ -28,4 +36,4 @@ Remember to use a browser which has the script installed.
 
 ## License
 
-[LICENSE](MIT License)
+[MIT License](LICENSE)
