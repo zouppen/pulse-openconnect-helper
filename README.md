@@ -2,21 +2,21 @@
 # Pulse-openconnect-helper
 
 Browser script for connecting to Juniper Pulse Connect Secure VPN
-using openconnect. Works even with the most hostile
+using OpenConnect. Works even with the most hostile
 two-factor-authentication schemes.
 
 ## How it works?
 
 It's a user script installed to a browser which steals the session
 cookie and shows the user a oneliner for connecting to that VPN using
-open-source openconnect. No more shady Java applets.
+open-source OpenConnect. No more shady Java applets.
 
 ![Screenshot](screenshot.png)
 
 ## Installation
 
-1. Install openconnect. Run `sudo apt install openconnect` if you are
-   using Debian or Ubuntu.
+1. Install OpenConnect 7.08 or newer. Run `sudo apt install
+   openconnect` if you are using Debian or Ubuntu.
 1. Install
    [Greasemonkey](https://addons.mozilla.org/fi/firefox/addon/greasemonkey/)
    for Firefox or
